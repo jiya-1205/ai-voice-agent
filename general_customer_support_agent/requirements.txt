@@ -1,0 +1,9 @@
+boto3
+amazon-transcribe
+edge-tts
+pydub
+pyaudio
+speechrecognition
+deep-translator
+streamlit
+streamlit_webrtc

@@ -1,0 +1,50 @@
+# -----------------------
+# Python / Environment
+# -----------------------
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# -----------------------
+# Secrets & configs
+# -----------------------
+.env
+*.env
+
+# -----------------------
+# Audio & generated media
+# -----------------------
+*.wav
+*.mp3
+*.ogg
+
+# -----------------------
+# Memory / call records (generated data)
+# Keep folders, ignore contents
+# -----------------------
+general_customer_service/memory/**
+!general_customer_service/memory/.gitkeep
+
+# If aws_product_feedback also generates memory later
+aws_product_feedback/memory/**
+!aws_product_feedback/memory/.gitkeep
+
+# -----------------------
+# Logs / temp
+# -----------------------
+*.log
+.tmp/
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------
+# Streamlit cache
+# -----------------------
+.streamlit/
